@@ -1,0 +1,6 @@
+@JScript.Api_HostAddress = https://localhost:7019
+
+GET {{JScript.Api_HostAddress}}/somethingitem/
+Accept: application/json
+
+###
