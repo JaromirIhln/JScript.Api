@@ -12,7 +12,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<SomethingContext>(options =>
     options.UseInMemoryDatabase("SomethingItem"));
-// P¯id·nÌ CORS sluûby
+// P≈ôid√°n√≠ CORS slu≈æby
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -39,7 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-// PouûitÌ CORS
+// Pou≈æit√≠ CORS
 app.UseCors();
 
 app.UseDefaultFiles();
